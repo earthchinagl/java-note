@@ -1,0 +1,4 @@
+java -jar provider-1.0-SNAPSHOT.jar --spring.profiles.active=consul-provider1
+java -jar provider-1.0-SNAPSHOT.jar --spring.profiles.active=consul-provider2
+
+java -jar consumer-1.0-SNAPSHOT.jar
